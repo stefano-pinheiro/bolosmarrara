@@ -2,28 +2,28 @@
 
 # Fotos da Landpage
 ### Header
-![ScreenShot](https://github.com/stefano-pinheiro/landpage-curso-marrara/blob/69e5f569554f8c6f78047725f0849f4c2879154c/fotos-projeto/header.png)
+![ScreenShot](https://github.com/stefano-pinheiro/bolosmarrara/blob/4fe9ccda86b5e080e3b4af3809f3566d236d2594/fotos-projeto/header.png)
 
 ### #sobre
-![ScreenShot](https://github.com/stefano-pinheiro/landpage-curso-marrara/blob/69e5f569554f8c6f78047725f0849f4c2879154c/fotos-projeto/sobre.png)
+![ScreenShot](https://github.com/stefano-pinheiro/bolosmarrara/blob/4fe9ccda86b5e080e3b4af3809f3566d236d2594/fotos-projeto/sobre.png)
 
 ### #curso
-![ScreenShot](https://github.com/stefano-pinheiro/landpage-curso-marrara/blob/69e5f569554f8c6f78047725f0849f4c2879154c/fotos-projeto/curso.png)
+![ScreenShot](https://github.com/stefano-pinheiro/bolosmarrara/blob/4fe9ccda86b5e080e3b4af3809f3566d236d2594/fotos-projeto/curso.png)
 
 ### #curso
-![ScreenShot](https://github.com/stefano-pinheiro/landpage-curso-marrara/blob/69e5f569554f8c6f78047725f0849f4c2879154c/fotos-projeto/curso-2.png)
+![ScreenShot](https://github.com/stefano-pinheiro/bolosmarrara/blob/4fe9ccda86b5e080e3b4af3809f3566d236d2594/fotos-projeto/curso-2.png)
 
 ### #apostila-curso
-![ScreenShot](https://github.com/stefano-pinheiro/landpage-curso-marrara/blob/69e5f569554f8c6f78047725f0849f4c2879154c/fotos-projeto/material.png)
+![ScreenShot](https://github.com/stefano-pinheiro/bolosmarrara/blob/4fe9ccda86b5e080e3b4af3809f3566d236d2594/fotos-projeto/material.png)
 
 ### #meus-alunos
-![ScreenShot](https://github.com/stefano-pinheiro/landpage-curso-marrara/blob/69e5f569554f8c6f78047725f0849f4c2879154c/fotos-projeto/alunos.png)
+![ScreenShot](https://github.com/stefano-pinheiro/bolosmarrara/blob/4fe9ccda86b5e080e3b4af3809f3566d236d2594/fotos-projeto/alunos.png)
 
 ### #garantia
-![ScreenShot](https://github.com/stefano-pinheiro/landpage-curso-marrara/blob/69e5f569554f8c6f78047725f0849f4c2879154c/fotos-projeto/certificado.png)
+![ScreenShot](https://github.com/stefano-pinheiro/bolosmarrara/blob/4fe9ccda86b5e080e3b4af3809f3566d236d2594/fotos-projeto/certificado.png)
 
 ### Footer
-![ScreenShot](https://github.com/stefano-pinheiro/landpage-curso-marrara/blob/69e5f569554f8c6f78047725f0849f4c2879154c/fotos-projeto/garantia-footer.png)
+![ScreenShot](https://github.com/stefano-pinheiro/bolosmarrara/blob/4fe9ccda86b5e080e3b4af3809f3566d236d2594/fotos-projeto/garantia-footer.png)
 
 # Projeto no figma
 
