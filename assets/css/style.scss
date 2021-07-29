@@ -1,0 +1,307 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+img {
+  display: block;
+  max-width: 100%;
+}
+.container {
+  width: 100%;
+  width: 1194px;
+  margin: 0 auto;
+}
+body {
+  font-family: 'Roboto';
+  .titulo {
+    color: #f4de67;
+    font-size: 2.25em;
+    font-weight: bold;
+    line-height: 1.2em;
+  }
+  .titulo-preto {
+    text-align: center;
+    color: #0b0a0a;
+    font-size: 2.25em;
+    font-weight: bold;
+    line-height: 1.2em;
+  }
+  header {
+    background: #000000;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f4de67;
+    div.container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .logo img {
+        max-width: 177px;
+      } //logo img
+      nav {
+        display: flex;
+        ul {
+          display: flex;
+          gap: 30px;
+          li {
+            a {
+              font-size: 1.5em;
+              color: #fff;
+              font-weight: bold;
+            } //a
+            a:hover {
+              color: #f4de67;
+            } //a hover
+          } //li
+        } //ul
+        div {
+          padding-left: 30px;
+          a {
+            font-size: 1.5em;
+            padding: 17px 26px;
+            color: #fff;
+            font-weight: bold;
+            border: 2px solid #fff;
+            border-radius: 40px;
+          } //a
+          a:hover {
+            color: #f4de67;
+            border: 2px solid #f4de67;
+          } //a hover
+        } //div
+      } //nav
+    } //div.container
+  } //header
+  main {
+    section {
+      font-family: 'Poppins';
+      &#seu-sonho {
+        padding: 120px 0 80px 0;
+        background: #0b0a0a;
+        div.container {
+          &.center {
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            iframe {
+              border: 1px solid black;
+              display: block;
+              max-width: 100%;
+              width: 820px;
+              height: 457px;
+              margin: 30px auto;
+            } //iframe
+            h2 {
+              color: #f4de67;
+              margin: 10px 0 35px 0;
+              font-size: 1.5em;
+            } //h2
+            h2:nth-child(4) {
+              margin: 35px 0 50px 0;
+            } //h2 nth-child
+            p {
+              display: inline;
+              font-size: 1.5em;
+              font-weight: bold;
+              a {
+                padding: 17px 26px;
+                color: #f4de67;
+                border: 2px solid #f4de67;
+                border-radius: 40px;
+              } //a
+              a:hover {
+                border: 2px solid #fff;
+                color: #fff;
+                border-radius: 40px;
+              } //a hover
+            } //p
+          } //center
+        } //div.container
+      } //seu sonho
+      &#sobre {
+        margin: 130px 0;
+        div.container {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          gap: 30px;
+          div {
+            img {
+              display: block;
+              max-width: 345px;
+              max-height: 345px;
+              background: #f4de67;
+              border: 2px solid #0b0a0a;
+            } //img
+          } //div
+          p {
+            max-width: 700px;
+            font-size: 1.75em;
+            font-weight: bold;
+            line-height: 1.1em;
+            margin: 0 20px;
+          } //p
+        } //div container
+      } //sobre
+      &#curso {
+        padding: 80px 0 120px 0;
+        background: #0b0a0a;
+        div.container {
+          display: block;
+          width: 100%;
+          text-align: center;
+          div.curso-list-marrara {
+            width: 100%;
+            margin: 90px auto;
+            display: flex;
+            flex-flow: row wrap;
+            gap: 50px;
+            justify-content: center;
+            img {
+              max-width: 230px;
+              border: 5px solid #fff;
+              border-radius: 40px;
+            } //img
+          } //div curso-list-marrara
+          div.curso-list-bolo {
+            margin: 90px auto 0 auto;
+            display: flex;
+            flex-flow: row wrap;
+            gap: 50px;
+            justify-content: center;
+            max-width: 1194px;
+            img {
+              max-width: 30%;
+            } //img
+          } //div curso-list-bolo
+        } //div conainer
+      } //curso
+      &#apostila-curso {
+        width: 100%;
+        margin: 80px auto;
+        div.container {
+          display: flex;
+          width: 100%;
+          max-width: 1194px;
+          flex-wrap: wrap;
+          text-align: center;
+          justify-content: center;
+          align-content: center;
+          gap: 30px;
+          div {
+            text-align: center;
+            flex: 1 1 300px;
+            margin: 50px auto;
+            img {
+              margin: 0 auto;
+            } //img
+            p {
+              padding-top: 10px;
+              font-size: 1.5em;
+              font-weight: bold;
+            } //p
+          } //div
+        } //div container
+      } //apostila-curso
+      &#meus-alunos {
+        text-align: center;
+        background: #0b0a0a;
+        padding: 80px 0;
+        div.container {
+          div.alunos-list {
+            padding: 35px 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+          } //div aluno-list
+          div {
+            h1 {
+              span {
+                color: #fff;
+              } //span
+            } //h1
+            img {
+              margin: 60px auto 0 auto;
+            } //img
+          } //div
+        } //div container
+      } //meus alunos
+      &#garantia {
+        padding: 80px 0;
+        div.container {
+          h1 {
+            text-align: center;
+          }
+          div {
+            display: flex;
+            gap: 30px;
+            margin: 20px 0;
+            .garantia {
+              display: flex;
+              flex-flow: column nowrap;
+              img {
+                display: block;
+                width: 512px;
+              }
+              a {
+                margin-top: 50px;
+                text-align: center;
+                font-size: 1.5em;
+                font-weight: bold;
+                color: #fff;
+                padding: 13px 38px;
+                background: linear-gradient(
+                  270deg,
+                  rgba(244, 222, 103, 0.9) -11.32%,
+                  rgba(0, 0, 0, 0.9) 116.67%
+                );
+                border: 1px solid rgba(0, 0, 0, 0.2);
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 40px;
+              }
+              a:hover {
+                color: #f4de67;
+              }
+            }
+            .texto-garantia {
+              p {
+                max-width: 667px;
+                padding: 0 20px;
+                font-size: 1.75em;
+                font-weight: bold;
+                line-height: 1.1em;
+              } //p
+            } //texto-garantia
+          } //div
+        } //div container
+      } //garantia
+    } //section
+  } //main
+  footer {
+    padding: 40px 0 10px 0;
+    background: #0b0a0a;
+    div.container {
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.75em;
+      color: #f4de67;
+      p {
+        padding-bottom: 20px;
+        a {
+          color: #f4de67;
+          padding: 20px;
+        }
+        a:hover {
+          color: #fff;
+        }
+      }
+    }
+  } //footer
+} //body
+
+@media screen and (max-width: 926px) {
+  body {
+  }
+}
