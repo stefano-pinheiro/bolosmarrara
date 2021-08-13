@@ -5,7 +5,7 @@
     <div class="container center">
       <h1 class="titulo">REALIZE O SEU SONHO</h1>
       <h2>E ALCANCE A SUA INDEPENDÊNCIA FINANCEIRA</h2>
-      <iframe width="820" height="457" src="https://www.youtube.com/embed/CJRkz3kmQSY?list=TLGGqnV4UUP5qZUyNDA3MjAyMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/CJRkz3kmQSY?list=TLGGqnV4UUP5qZUyNDA3MjAyMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <h2>Garanta sua vaga com valor promocional !</h2>
       <p><a href="https://www.google.com.br" target="_blank">Garanta sua vaga</a></p>
     </div>    
@@ -84,10 +84,10 @@
       <div>
         <h1 class="titulo">O QUE OS ALUNOS ESTÃO ACHANDO DO CURSO?</h1>
         <div class="alunos-list">
-          <iframe width="429" height="233" src="https://www.youtube.com/embed/e-emHJ4shB4?list=TLGGWcVlcCvrp9oyNTA3MjAyMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="429" height="233" src="https://www.youtube.com/embed/WB-LUCifFAA?list=TLGGJeFq8AQsVtAyNTA3MjAyMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="429" height="233" src="https://www.youtube.com/embed/vQroX_htNYQ?list=TLGGTJyFuw0TVbMyNTA3MjAyMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="429" height="233" src="https://www.youtube.com/embed/zQsoT3_P3pM?list=TLGGxCHLjG8CDvsyNTA3MjAyMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/e-emHJ4shB4?list=TLGGWcVlcCvrp9oyNTA3MjAyMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/WB-LUCifFAA?list=TLGGJeFq8AQsVtAyNTA3MjAyMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/vQroX_htNYQ?list=TLGGTJyFuw0TVbMyNTA3MjAyMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/zQsoT3_P3pM?list=TLGGxCHLjG8CDvsyNTA3MjAyMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
       <div>

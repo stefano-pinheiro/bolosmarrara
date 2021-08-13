@@ -43,7 +43,7 @@ body header {
   border-bottom: 1px solid #f4de67;
 }
 
-body header div.container {
+body header .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,38 +55,40 @@ body header div.container {
           align-items: center;
 }
 
-body header div.container .logo img {
+body header .container .logo img {
+  padding-left: 10px;
   max-width: 177px;
 }
 
-body header div.container nav {
+body header .container nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-body header div.container nav ul {
+body header .container nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
 }
 
-body header div.container nav ul li a {
+body header .container nav ul li a {
   font-size: 1.5em;
   color: #fff;
   font-weight: bold;
 }
 
-body header div.container nav ul li a:hover {
+body header .container nav ul li a:hover {
   color: #f4de67;
 }
 
-body header div.container nav div {
+body header .container nav div {
   padding-left: 30px;
+  padding-right: 10px;
 }
 
-body header div.container nav div a {
+body header .container nav div a {
   font-size: 1.5em;
   padding: 17px 26px;
   color: #fff;
@@ -95,7 +97,7 @@ body header div.container nav div a {
   border-radius: 40px;
 }
 
-body header div.container nav div a:hover {
+body header .container nav div a:hover {
   color: #f4de67;
   border: 2px solid #f4de67;
 }
@@ -105,49 +107,50 @@ body main section {
 }
 
 body main section#seu-sonho {
-  padding: 120px 0 80px 0;
+  padding: 80px 0 80px 0;
   background: #0b0a0a;
 }
 
-body main section#seu-sonho div.container.center {
+body main section#seu-sonho .container.center {
   width: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
-body main section#seu-sonho div.container.center iframe {
-  border: 1px solid black;
+body main section#seu-sonho .container.center iframe {
   display: block;
-  max-width: 100%;
-  width: 820px;
-  height: 457px;
+  max-width: 70%;
+  padding: 0 20px;
+  width: 600px;
+  height: 300px;
   margin: 30px auto;
 }
 
-body main section#seu-sonho div.container.center h2 {
+body main section#seu-sonho .container.center h2 {
   color: #f4de67;
+  font-weight: bold;
   margin: 10px 0 35px 0;
   font-size: 1.5em;
 }
 
-body main section#seu-sonho div.container.center h2:nth-child(4) {
+body main section#seu-sonho .container.center h2:nth-child(4) {
   margin: 35px 0 50px 0;
 }
 
-body main section#seu-sonho div.container.center p {
+body main section#seu-sonho .container.center p {
   display: inline;
   font-size: 1.5em;
   font-weight: bold;
 }
 
-body main section#seu-sonho div.container.center p a {
+body main section#seu-sonho .container.center p a {
   padding: 17px 26px;
   color: #f4de67;
   border: 2px solid #f4de67;
   border-radius: 40px;
 }
 
-body main section#seu-sonho div.container.center p a:hover {
+body main section#seu-sonho .container.center p a:hover {
   border: 2px solid #fff;
   color: #fff;
   border-radius: 40px;
@@ -157,7 +160,7 @@ body main section#sobre {
   margin: 130px 0;
 }
 
-body main section#sobre div.container {
+body main section#sobre .container {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -172,15 +175,16 @@ body main section#sobre div.container {
   gap: 30px;
 }
 
-body main section#sobre div.container div img {
+body main section#sobre .container div img {
   display: block;
+  margin: 0 auto;
   max-width: 345px;
   max-height: 345px;
   background: #f4de67;
   border: 2px solid #0b0a0a;
 }
 
-body main section#sobre div.container p {
+body main section#sobre .container p {
   max-width: 700px;
   font-size: 1.75em;
   font-weight: bold;
@@ -193,13 +197,13 @@ body main section#curso {
   background: #0b0a0a;
 }
 
-body main section#curso div.container {
+body main section#curso .container {
   display: block;
   width: 100%;
   text-align: center;
 }
 
-body main section#curso div.container div.curso-list-marrara {
+body main section#curso .container .curso-list-marrara {
   width: 100%;
   margin: 90px auto;
   display: -webkit-box;
@@ -215,13 +219,13 @@ body main section#curso div.container div.curso-list-marrara {
           justify-content: center;
 }
 
-body main section#curso div.container div.curso-list-marrara img {
+body main section#curso .container .curso-list-marrara img {
   max-width: 230px;
   border: 5px solid #fff;
   border-radius: 40px;
 }
 
-body main section#curso div.container div.curso-list-bolo {
+body main section#curso .container .curso-list-bolo {
   margin: 90px auto 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -237,7 +241,7 @@ body main section#curso div.container div.curso-list-bolo {
   max-width: 1194px;
 }
 
-body main section#curso div.container div.curso-list-bolo img {
+body main section#curso .container .curso-list-bolo img {
   max-width: 30%;
 }
 
@@ -246,7 +250,7 @@ body main section#apostila-curso {
   margin: 80px auto;
 }
 
-body main section#apostila-curso div.container {
+body main section#apostila-curso .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -263,7 +267,7 @@ body main section#apostila-curso div.container {
   gap: 30px;
 }
 
-body main section#apostila-curso div.container div {
+body main section#apostila-curso .container div {
   text-align: center;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 300px;
@@ -271,11 +275,11 @@ body main section#apostila-curso div.container div {
   margin: 50px auto;
 }
 
-body main section#apostila-curso div.container div img {
+body main section#apostila-curso .container div img {
   margin: 0 auto;
 }
 
-body main section#apostila-curso div.container div p {
+body main section#apostila-curso .container div p {
   padding-top: 10px;
   font-size: 1.5em;
   font-weight: bold;
@@ -287,8 +291,13 @@ body main section#meus-alunos {
   padding: 80px 0;
 }
 
-body main section#meus-alunos div.container div.alunos-list {
-  padding: 35px 0;
+body main section#meus-alunos .container {
+  width: 100%;
+  max-width: 960px;
+}
+
+body main section#meus-alunos .container .alunos-list {
+  padding: 50px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -300,11 +309,16 @@ body main section#meus-alunos div.container div.alunos-list {
   gap: 30px;
 }
 
-body main section#meus-alunos div.container div h1 span {
+body main section#meus-alunos .container .alunos-list iframe {
+  width: 430px;
+  height: 230px;
+}
+
+body main section#meus-alunos .container div h1 span {
   color: #fff;
 }
 
-body main section#meus-alunos div.container div img {
+body main section#meus-alunos .container div img {
   margin: 60px auto 0 auto;
 }
 
@@ -312,19 +326,26 @@ body main section#garantia {
   padding: 80px 0;
 }
 
-body main section#garantia div.container h1 {
+body main section#garantia .container {
+  width: 100%;
+}
+
+body main section#garantia .container h1 {
   text-align: center;
 }
 
-body main section#garantia div.container div {
+body main section#garantia .container div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 30px;
   margin: 20px 0;
 }
 
-body main section#garantia div.container div .garantia {
+body main section#garantia .container div .garantia {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -334,12 +355,12 @@ body main section#garantia div.container div .garantia {
           flex-flow: column nowrap;
 }
 
-body main section#garantia div.container div .garantia img {
+body main section#garantia .container div .garantia img {
   display: block;
-  width: 512px;
+  max-width: 100%;
 }
 
-body main section#garantia div.container div .garantia a {
+body main section#garantia .container div .garantia a {
   margin-top: 50px;
   text-align: center;
   font-size: 1.5em;
@@ -354,11 +375,11 @@ body main section#garantia div.container div .garantia a {
   border-radius: 40px;
 }
 
-body main section#garantia div.container div .garantia a:hover {
+body main section#garantia .container div .garantia a:hover {
   color: #f4de67;
 }
 
-body main section#garantia div.container div .texto-garantia p {
+body main section#garantia .container div .texto-garantia p {
   max-width: 667px;
   padding: 0 20px;
   font-size: 1.75em;
@@ -371,23 +392,163 @@ body footer {
   background: #0b0a0a;
 }
 
-body footer div.container {
+body footer .container {
+  width: 100%;
   text-align: center;
   font-weight: bold;
   font-size: 1.75em;
   color: #f4de67;
 }
 
-body footer div.container p {
+body footer .container p {
   padding-bottom: 20px;
 }
 
-body footer div.container p a {
+body footer .container p a {
   color: #f4de67;
   padding: 20px;
 }
 
-body footer div.container p a:hover {
+body footer .container p a:hover {
   color: #fff;
+}
+
+@media screen and (max-width: 960px) {
+  body header .container nav ul {
+    display: none;
+  }
+  body main section#garantia .container div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  body .titulo {
+    font-size: 1.25em;
+  }
+  body .titulo-preto {
+    font-size: 1.25em;
+  }
+  body header {
+    padding: 15px 0;
+  }
+  body header .logo img {
+    width: 70%;
+  }
+  body header nav ul li {
+    display: none;
+  }
+  body header nav ul li a {
+    display: none;
+  }
+  body header div {
+    padding-right: 6px;
+  }
+  body header div a {
+    font-size: 1em !important;
+    padding: 11px 18px !important;
+  }
+  body main section#seu-sonho {
+    padding: 60px 0 80px 0;
+  }
+  body main section#seu-sonho .container.center iframe {
+    width: 400px;
+    height: 200px;
+  }
+  body main section#seu-sonho .container.center h2 {
+    font-size: 0.9em;
+  }
+  body main section#seu-sonho .container.center p {
+    font-size: 1em;
+  }
+  body main section#sobre {
+    margin: 60px 0;
+  }
+  body main section#sobre .container div img {
+    width: 90%;
+  }
+  body main section#sobre .container p {
+    max-width: 320px;
+    font-size: 1em;
+  }
+  body main section#curso {
+    padding: 60px 0 60px 0;
+  }
+  body main section#curso .container .curso-list-marrara {
+    margin: 40px auto 60px auto;
+    gap: 20px;
+  }
+  body main section#curso .container .curso-list-marrara img {
+    max-width: 140px;
+  }
+  body main section#curso .container .curso-list-bolo {
+    margin: 40px auto 0px auto;
+    gap: 35px;
+  }
+  body main section#apostila-curso {
+    margin: 60px auto;
+  }
+  body main section#apostila-curso .container div {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 160px;
+            flex: 1 1 160px;
+    margin: 30px auto;
+  }
+  body main section#apostila-curso .container div img {
+    max-width: 160px;
+  }
+  body main section#apostila-curso .container div p {
+    font-size: 1em;
+  }
+  body main section#meus-alunos {
+    padding: 60px 0;
+  }
+  body main section#meus-alunos .container .alunos-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body main section#meus-alunos .container .alunos-list iframe {
+    width: 280px !important;
+    height: 150px !important;
+  }
+  body main section#garantia {
+    padding: 60px 0;
+  }
+  body main section#garantia .container div {
+    gap: 0;
+  }
+  body main section#garantia .container div .garantia img {
+    max-width: 60%;
+  }
+  body main section#garantia .container div .garantia a {
+    font-size: 1em;
+  }
+  body main section#garantia .container div .texto-garantia {
+    max-width: 380px;
+    font-size: 0.75em;
+  }
+  body footer {
+    padding: 20px 0 0 0;
+  }
+  body footer .container {
+    font-size: 0.75em;
+  }
+  body footer .container p {
+    padding-bottom: 10px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

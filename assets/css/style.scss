@@ -31,13 +31,16 @@ body {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #f4de67;
-    div.container {
+    .container {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      .logo img {
-        max-width: 177px;
-      } //logo img
+      .logo {
+        img {
+          padding-left: 10px;
+          max-width: 177px;
+        } //img
+      } //logo
       nav {
         display: flex;
         ul {
@@ -56,6 +59,7 @@ body {
         } //ul
         div {
           padding-left: 30px;
+          padding-right: 10px;
           a {
             font-size: 1.5em;
             padding: 17px 26px;
@@ -76,23 +80,24 @@ body {
     section {
       font-family: 'Poppins';
       &#seu-sonho {
-        padding: 120px 0 80px 0;
+        padding: 80px 0 80px 0;
         background: #0b0a0a;
-        div.container {
+        .container {
           &.center {
             width: 100%;
             margin: 0 auto;
             text-align: center;
             iframe {
-              border: 1px solid black;
               display: block;
-              max-width: 100%;
-              width: 820px;
-              height: 457px;
+              max-width: 70%;
+              padding: 0 20px;
+              width: 600px;
+              height: 300px;
               margin: 30px auto;
             } //iframe
             h2 {
               color: #f4de67;
+              font-weight: bold;
               margin: 10px 0 35px 0;
               font-size: 1.5em;
             } //h2
@@ -116,11 +121,11 @@ body {
               } //a hover
             } //p
           } //center
-        } //div.container
-      } //seu sonho
+        } //container
+      } //#seu-sonho
       &#sobre {
         margin: 130px 0;
-        div.container {
+        .container {
           width: 100%;
           display: flex;
           flex-flow: row wrap;
@@ -129,6 +134,7 @@ body {
           div {
             img {
               display: block;
+              margin: 0 auto;
               max-width: 345px;
               max-height: 345px;
               background: #f4de67;
@@ -142,16 +148,16 @@ body {
             line-height: 1.1em;
             margin: 0 20px;
           } //p
-        } //div container
-      } //sobre
+        } //.container
+      } //#sobre
       &#curso {
         padding: 80px 0 120px 0;
         background: #0b0a0a;
-        div.container {
+        .container {
           display: block;
           width: 100%;
           text-align: center;
-          div.curso-list-marrara {
+          .curso-list-marrara {
             width: 100%;
             margin: 90px auto;
             display: flex;
@@ -163,8 +169,8 @@ body {
               border: 5px solid #fff;
               border-radius: 40px;
             } //img
-          } //div curso-list-marrara
-          div.curso-list-bolo {
+          } //.curso-list-marrara
+          .curso-list-bolo {
             margin: 90px auto 0 auto;
             display: flex;
             flex-flow: row wrap;
@@ -174,13 +180,13 @@ body {
             img {
               max-width: 30%;
             } //img
-          } //div curso-list-bolo
-        } //div conainer
-      } //curso
+          } //.curso-list-bolo
+        } //.container
+      } //#curso
       &#apostila-curso {
         width: 100%;
         margin: 80px auto;
-        div.container {
+        .container {
           display: flex;
           width: 100%;
           max-width: 1194px;
@@ -202,20 +208,26 @@ body {
               font-weight: bold;
             } //p
           } //div
-        } //div container
-      } //apostila-curso
+        } //.container
+      } //#apostila-curso
       &#meus-alunos {
         text-align: center;
         background: #0b0a0a;
         padding: 80px 0;
-        div.container {
-          div.alunos-list {
-            padding: 35px 0;
+        .container {
+          width: 100%;
+          max-width: 960px;
+          .alunos-list {
+            padding: 50px 0;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             gap: 30px;
-          } //div aluno-list
+            iframe {
+              width: 430px;
+              height: 230px;
+            }
+          } //.alunos-list
           div {
             h1 {
               span {
@@ -226,16 +238,18 @@ body {
               margin: 60px auto 0 auto;
             } //img
           } //div
-        } //div container
-      } //meus alunos
+        } //.container
+      } //#meus-alunos
       &#garantia {
         padding: 80px 0;
-        div.container {
+        .container {
+          width: 100%;
           h1 {
             text-align: center;
-          }
+          } //h1
           div {
             display: flex;
+            justify-content: center;
             gap: 30px;
             margin: 20px 0;
             .garantia {
@@ -243,8 +257,8 @@ body {
               flex-flow: column nowrap;
               img {
                 display: block;
-                width: 512px;
-              }
+                max-width: 100%;
+              } //img
               a {
                 margin-top: 50px;
                 text-align: center;
@@ -260,11 +274,11 @@ body {
                 border: 1px solid rgba(0, 0, 0, 0.2);
                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                 border-radius: 40px;
-              }
+              } //a
               a:hover {
                 color: #f4de67;
-              }
-            }
+              } //a:hover
+            } //.garantia
             .texto-garantia {
               p {
                 max-width: 667px;
@@ -273,16 +287,17 @@ body {
                 font-weight: bold;
                 line-height: 1.1em;
               } //p
-            } //texto-garantia
+            } //.texto-garantia
           } //div
-        } //div container
-      } //garantia
+        } //.container
+      } //#garantia
     } //section
   } //main
   footer {
     padding: 40px 0 10px 0;
     background: #0b0a0a;
-    div.container {
+    .container {
+      width: 100%;
       text-align: center;
       font-weight: bold;
       font-size: 1.75em;
@@ -301,7 +316,177 @@ body {
   } //footer
 } //body
 
-@media screen and (max-width: 926px) {
+@media screen and (max-width: 960px) {
   body {
-  }
-}
+    header {
+      .container {
+        nav {
+          ul {
+            display: none;
+          }
+        }
+      }
+    } //header
+    main {
+      section {
+        &#garantia {
+          .container {
+            div {
+              flex-flow: column nowrap;
+              justify-content: center;
+              align-items: center;
+            } //div
+          } //.container
+        } //#garantia
+      } //section
+    } //main
+    footer {
+    } //footer
+  } //body
+} //media
+
+@media screen and (max-width: 620px) {
+  body {
+    .titulo {
+      font-size: 1.25em;
+    }
+    .titulo-preto {
+      font-size: 1.25em;
+    }
+    header {
+      padding: 15px 0;
+      .logo {
+        img {
+          width: 70%;
+        }
+      }
+      nav {
+        ul {
+          li {
+            display: none;
+            a {
+              display: none;
+            } //a
+          } //li
+        } //ul
+      } //nav
+      div {
+        padding-right: 6px;
+        a {
+          font-size: 1em !important;
+          padding: 11px 18px !important;
+        } //a
+      } //div
+    } //header
+    main {
+      section {
+        &#seu-sonho {
+          padding: 60px 0 80px 0;
+          .container {
+            &.center {
+              iframe {
+                width: 400px;
+                height: 200px;
+              } //iframe
+              h2 {
+                font-size: 0.9em;
+              } //h2
+              p {
+                font-size: 1em;
+                a {
+                } //a
+              } //p
+            } //.center
+          } //.container
+        } //#seu-sonho
+        &#sobre {
+          margin: 60px 0;
+          .container {
+            div {
+              img {
+                width: 90%;
+              } //img
+            } //div
+            p {
+              max-width: 320px;
+              font-size: 1em;
+            } //p
+          } //.container
+        } //#sobre
+        &#curso {
+          padding: 60px 0 60px 0;
+          .container {
+            .curso-list-marrara {
+              margin: 40px auto 60px auto;
+              gap: 20px;
+              img {
+                max-width: 140px;
+              } //img
+            } //curso-list-marrara
+            .curso-list-bolo {
+              margin: 40px auto 0px auto;
+              gap: 35px;
+            } //.curso-list-marrara
+          } //.container
+        } //#curso
+        &#apostila-curso {
+          margin: 60px auto;
+          .container {
+            div {
+              flex: 1 1 160px;
+              margin: 30px auto;
+              img {
+                max-width: 160px;
+              } //img
+              p {
+                font-size: 1em;
+              } //p
+            } //div
+          } //.container
+        } //#apostila-curso
+        &#meus-alunos {
+          padding: 60px 0;
+          .container {
+            .alunos-list {
+              flex-direction: column;
+              align-items: center;
+              iframe {
+                width: 280px !important;
+                height: 150px !important;
+              }
+            } //.aluno-list
+          } //.container
+        } //#meus-alunos
+        &#garantia {
+          padding: 60px 0;
+          .container {
+            div {
+              gap: 0;
+              .garantia {
+                img {
+                  max-width: 60%;
+                } //img
+                a {
+                  font-size: 1em;
+                } //a
+              } //.garantia
+              .texto-garantia {
+                max-width: 380px;
+                font-size: 0.75em;
+              } //.texto-garantia
+            } //div
+          } //.container
+        } //#garantia
+      } //section
+    } //main
+    footer {
+      padding: 20px 0 0 0;
+      .container {
+        font-size: 0.75em;
+        p {
+          padding-bottom: 10px;
+        } //p
+      } //container
+    } //footer
+  } //body
+} //media
