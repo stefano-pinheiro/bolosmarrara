@@ -50,5 +50,4 @@ OBS: caso não pegar o link, acessar o banco de dados ir em wp_option em siteurl
 
 ## Pendências do Projeto
 
-- Adicionar @media
 - Adicionar @keyframes
